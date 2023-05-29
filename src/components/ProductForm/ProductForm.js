@@ -35,7 +35,7 @@ const ProductForm = ({data = {}}) => {
                 name: data.name,
                 description: data.description,
                 price: data.price,
-                cover: ""
+                cover: data.cover ? data.cover : ""
             })
         }
     }, [data])
