@@ -1,0 +1,32 @@
+@use "~bootstrap/scss/bootstrap.scss";
+
+body {
+    margin: 0!important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif!important;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace!important;
+  }
+  .colorstyle1 {
+    background: grey !important;
+    box-shadow: 0 8px 32px 0 rgba( 39, 40, 60, 0.37 ) !important;
+}
+
+.bg-color {
+  background-color: gold;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.font {
+  font-style: italic;
+  font-weight: bold;
+  font-size: larger;
+}
